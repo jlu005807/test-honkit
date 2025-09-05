@@ -1,17 +1,27 @@
->  [!tip]
->  注意当前文件仅仅用于测试
+本仓库用于测试使用 Honkit 构建文档站点，并尝试若干 GitBook/Honkit 插件与自定义样式（例如 `flexible-alerts`、`search-pro`、`tbfed-pagefooter`、自定义 `styles/website.css` 等）。
 
-```cpp
-{
-    for(int i=0;i<n;i++){
-    	if(i==0);
-    	else i=0;
-    }
-}
+主要目的：
+
+- 验证 Honkit 在本地与 CI（GitHub Actions）下的构建流程。
+- 测试常用插件的兼容性与样式效果。
+- 其中个性化配置在 book.json 以及styles/website.css
+
+快速使用（在项目根目录）：具体构建详见：[honkit](https://honkit.netlify.app/)
+
+```powershell
+# 安装依赖
+npm install honkit --save-dev
+
+#初始化
+npx honkit init
+
+# 本地构建
+npx honkit build
+
+# 预览生成的静态网站（例如用 http-server）
+npx honkit server 
+# 然后在浏览器打开 http://localhost:4000
 ```
-
-
-中文技术文档的写作规范。
 
 ## 目录
 

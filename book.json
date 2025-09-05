@@ -83,6 +83,17 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss",
             "show_power": true,
             "hover": true
+        },
+        "add-giscus": {
+            "repo": "jlu005807/test-honkit",
+            "repoId": "R_kgDOPoddZw",
+            "category": "General",
+            "categoryId": "DIC_kwDOPoddZ84Cu4hi",
+            "theme_config": {
+                "default": "light",
+                "color-theme-1": "gruvbox",
+                "color-theme-2": "dark_dimmed"
+            }
         }
     }
 }

@@ -13,6 +13,6 @@
     "gitbook-plugin-search-pro": "^2.0.2",
     "gitbook-plugin-sharing-plus": "^0.0.2",
     "gitbook-plugin-versions-select": "^0.1.1",
-    "honkit-plugin-tbfed-pagefooter": "^0.0.6"
+    "honkit-plugin-tbfed-pagefooter": "^0.0.7"
   }
 }
