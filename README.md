@@ -4,9 +4,11 @@
 
 - 验证 Honkit 在本地与 CI（GitHub Actions）下的构建流程。
 - 测试常用插件的兼容性与样式效果。
-- 其中个性化配置在 book.json 以及styles/website.css
+- 其中个性化配置在 `book.json` 以及 `styles/website.css`
+- 同时本页面使用的插件可以查看`package.json`
 
-快速使用（在项目根目录）：具体构建详见：[honkit](https://honkit.netlify.app/)
+快速使用（在项目根目录）：具体构建详见：[honkit](https://honkit.netlify.app/)。请保证已经安装好node.js
+可以通过命令行 `node -v` 查看
 
 ```powershell
 # 安装依赖
@@ -22,6 +24,10 @@ npx honkit build
 npx honkit server 
 # 然后在浏览器打开 http://localhost:4000
 ```
+
+
+> [!tip]
+> 注意下面的文章来源于阮一峰的[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide),在这里仅仅用于展示
 
 ## 目录
 
