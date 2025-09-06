@@ -25,18 +25,19 @@
         "page-treeview-simple",
         "flexible-alerts",
         "tbfed-pagefooter",
-        "versions-select"
+        "versions-select",
+        "add-giscus"
     ],
     "pluginsConfig": {
         "versions": {
             "options": [
                 {
-                    "value": "https://www.mapull.com/gitbook/api/",
-                    "text": "API 主题"
+                    "value": "https://jlu005807.github.io/test-honkit/",
+                    "text": "当前页面"
                 },
                 {
-                    "value": "https://www.mapull.com/gitbook/default/",
-                    "text": "默认主题",
+                    "value": "https://jlu005807.github.io/",
+                    "text": "我的主页",
                     "selected": true
                 }
             ]
